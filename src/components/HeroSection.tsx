@@ -124,7 +124,7 @@ const HeroSection: React.FC = () => {
         .hero-title {
           font-family: 'Syne', sans-serif;
           font-weight: 700;
-          font-size: clamp(2rem, 4vw, 3.6rem);
+          font-size: clamp(1.5rem, 5vw, 3.6rem);
           line-height: 1.06;
           letter-spacing: -0.03em;
           color: #fff;
@@ -247,11 +247,23 @@ const HeroSection: React.FC = () => {
           text-transform: uppercase;
         }
 
-        @media (max-width: 640px) {
-          .hero-stats-inner { grid-template-columns: repeat(2,1fr); padding: 0 20px; }
-          .hero-stat:nth-child(2) { border-right: none; }
-          .hero-title { font-size: 2.4rem; }
-        }
+@media (max-width: 640px) {
+  .hero-stats-inner { grid-template-columns: repeat(2,1fr); padding: 0 20px; }
+  .hero-stat:nth-child(2) { border-right: none; }
+  .hero-title { font-size: 1.6rem; letter-spacing: -0.02em; }
+  .hero-sub { font-size: 0.9rem; }
+  .hero-body { padding-top: 100px; padding-bottom: 40px; }
+  .hero-stat-num { font-size: 1.5rem; }
+  .hero-bg {
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero-title { font-size: 1.35rem; }
+  .hero-sub { font-size: 0.85rem; }
+}
       `}</style>
 
       <section className="hero" id="home">

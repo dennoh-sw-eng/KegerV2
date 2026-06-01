@@ -328,7 +328,7 @@ export const ParallaxBanner: React.FC = () => (
             rgba(10,12,16,0.68) 50%,
             rgba(10,12,16,0.84) 100%
           ),
-          url('/src/assets/images/heroimg.webp') center / cover no-repeat;
+          url('/heroimg.webp') center / cover no-repeat;
         background-attachment: fixed;
         z-index: 0;
       }
@@ -468,7 +468,7 @@ export const FAQSection: React.FC = () => {
               rgba(10,12,16,0.60) 50%,
               rgba(10,12,16,0.65) 100%
             ),
-            url('/src/assets/images/heroimg.webp') center / cover no-repeat;
+            url('/heroimg.webp') center / cover no-repeat;
           background-attachment: fixed;
         }
 

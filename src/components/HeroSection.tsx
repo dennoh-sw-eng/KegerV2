@@ -55,7 +55,7 @@ const HeroSection: React.FC = () => {
               rgba(10,12,16,0.62) 45%,
               rgba(10,12,16,0.80) 100%
             ),
-            url('/src/assets/images/heroimg1.webp') center / cover no-repeat;
+            url('/heroimg1.webp') center / cover no-repeat;
           pointer-events: none;
         }
         .hero-bg::after {

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const WORDS = ["Growth", "Impact", "Enterprise", "Scale"];
+const WORDS = ["Growth", "Speed", "Scale"];
 
 const HeroSection: React.FC = () => {
   const [wordIdx, setWordIdx] = useState(0);
@@ -260,10 +260,7 @@ const HeroSection: React.FC = () => {
         <div className="hero-body">
           <div className="container">
             <div className="hero-text-wrap">
-              <div className="hero-badge">
-                <span className="hero-badge-chip">New</span>
-                <span className="hero-badge-text">Cloud &amp; AI Infrastructure — Now Live</span>
-              </div>
+
               <h1 className="hero-title">
                 ICT Solutions
                 <span className="hero-title-line2">

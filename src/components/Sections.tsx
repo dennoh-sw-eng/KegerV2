@@ -391,16 +391,6 @@ export const ParallaxBanner: React.FC = () => (
         line-height: 1.7;
         margin-bottom: 32px;
       }
-        @media (max-width: 768px) {
-  .parallax-bg-layer {
-    background-attachment: scroll;
-    background-position: center center;
-  }
-  .faq-section {
-    background-attachment: scroll;
-    background-position: center center;
-  }
-}
     `}</style>
 
     <div className="parallax-section">

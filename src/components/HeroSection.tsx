@@ -124,7 +124,7 @@ const HeroSection: React.FC = () => {
         .hero-title {
           font-family: 'Syne', sans-serif;
           font-weight: 700;
-          font-size: clamp(2.8rem, 5.5vw, 4.8rem);
+          font-size: clamp(2rem, 4vw, 3.6rem);
           line-height: 1.06;
           letter-spacing: -0.03em;
           color: #fff;
